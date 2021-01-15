@@ -1,17 +1,17 @@
 {
-  "name": "node-libs-react-native",
-  "version": "1.2.1",
-  "author": "Tobias Koppers @sokra",
-  "description": "Node core modules for React Native",
+  "name": "node-libs-react-native-buffer4",
+  "version": "1.0.0",
+  "author": "Tobias Koppers @sokra forked by cjh829",
+  "description": "Node core modules for React Native. Just change the version of 'buffer' to 4.9.2 for legacy support",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parshap/node-libs-react-native.git"
+    "url": "git+https://github.com/cjh829/node-libs-react-native-buffer4.git"
   },
   "dependencies": {
     "assert": "^1.4.1",
     "base-64": "^0.1.0",
     "browserify-zlib": "^0.2.0",
-    "buffer": "^6.0.3",
+    "buffer": "^4.9.2",
     "console-browserify": "^1.1.0",
     "constants-browserify": "^1.0.0",
     "domain-browser": "^1.1.1",
@@ -32,13 +32,13 @@
     "url": "^0.11.0",
     "util": "^0.10.3"
   },
-  "homepage": "http://github.com/parshap/node-libs-react-native",
+  "homepage": "http://github.com/cjh829/node-libs-react-native-buffer4",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parshap/node-libs-react-native/issues"
+    "url": "https://github.com/cjh829/node-libs-react-native-buffer4/issues"
   }
 }
